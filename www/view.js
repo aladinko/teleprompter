@@ -2,7 +2,7 @@ $(function () {
   var $source = $(new EventSource(String(window.location) + '/events'));
   var $content = $('.content');
   var $flipButton = $('.flip-button');
-  var $contentContainer = $('.content-container');
+  var $contentContainer = $('body');
   var $statusIndicator = $('.status-indicator');
   var $breaks = $('p');
   var speedVec = 0;
